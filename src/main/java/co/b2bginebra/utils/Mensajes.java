@@ -5,13 +5,16 @@ public final class Mensajes {
     //General
     public static final String ERROR_MESSAGE = "Ocurrio un error. Por favor intentelo de nuevo";
 
-    //ConfiguracionVista)
+    //ConfiguracionVista
     public static final String MISSING_EMAIL = "Debe especificar un correo";
     public static final String INVALID_EMAIL = "No existe usuario con el correo especificado";
     public static final String SUCCESS_PASSWORD_CHANGE = "Consulte su correo para continuar con el proceso de cambio de contraseña";
     public static final String INVALID_PASSWORD = "Las contraseñas no coinciden";
+    public static final String USER_REMOVED = "Usuario eliminado correctamente";
+    public static final String ERROR_REMOVING_USER = "Ocurrio un error al borrar al usuario";
+    public static final String CONFIRM_REMOVAL_USER = "Tenga en cuenta que se borrará toda la información del usuario y no podrá recuperar esa información. ¿Desea continuar?";
 
-    //ContactoVista)
+    //ContactoVista
     public static final String ERROR_MISSING_FIELDS = "Debe especificar todos los campos";
     public static final String SUCCESS_MESSAGE = "Mensaje enviado correctamente";
 
@@ -39,4 +42,5 @@ public final class Mensajes {
 
     //UsuarioVista
     public static final String SUCCESS_INFORMATION_CHANGED = "Informacion actualizada";
+    public static final String INFO_INFORMATION_NOT_CHANGED = "No se ha realizado ningun cambio";
 }
