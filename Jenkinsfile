@@ -1,6 +1,6 @@
 node{
     stage 'checkout'
-    checkout scm //git repostory configured outside this script
+    checkout scm //git repository configured outside this script
 
     stage 'build'
     sh 'mvn clean package' //maven build
