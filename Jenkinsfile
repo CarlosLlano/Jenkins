@@ -1,8 +1,8 @@
 stage 'checkout'
-git "https://github.com/CarlosLlano/Jenkins.git"
+checkout scm //git repostory configured outside this script
 
 stage 'build'
-sh 'mvn clean package'
+sh 'mvn clean package' //maven build
 
 stage 'archive'
-archiveArtifacts 'target/*.war'
+archiveArtifacts 'target/*.war' //archive .war for build history
